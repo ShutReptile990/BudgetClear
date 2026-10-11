@@ -1,4 +1,4 @@
-# BudgetClear (G-03)
+# BudgetClear
 
 BudgetClear is a forensic review workspace for government spending data. Auditors upload CSV ledgers, run deterministic data checks, and review AI-assisted anomaly flags with links back to the exact source records. A balanced total alone cannot establish that every transaction is appropriate; BudgetClear helps identify records that deserve further investigation.
 
