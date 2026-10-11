@@ -1,0 +1,509 @@
+transaction_id,date,vendor,category,description,amount,invoice_number
+TX-1473,2026-02-08,Vendor_3,Office Supplies,Whiteboard Markers,395.68,INV-1473
+TX-1356,2026-01-08,Vendor_25,General Logistics,Shipping Boxes,1322.89,INV-1356
+TX-1191,2026-06-17,Vendor_31,IT Infrastructure,Cloud Storage Fees,2360.04,INV-1191
+TX-1141,2026-02-18,Vendor_17,IT Infrastructure,Ethernet Cables,4964.08,INV-1141
+TX-1134,2026-06-28,Vendor_15,IT Infrastructure,Server Rack,1861.02,INV-1134
+TX-1409,2026-03-23,Vendor_12,Office Supplies,Printer Paper,3362.73,INV-1409
+TX-1489,2026-03-04,Vendor_19,IT Infrastructure,Cloud Storage Fees,4904.67,INV-1489
+TX-1279,2026-02-05,Vendor_26,IT Infrastructure,Server Rack,2876.58,INV-1279
+TX-1447,2026-04-10,Vendor_11,IT Infrastructure,Cloud Storage Fees,3939.16,INV-1447
+TX-1235,2026-02-04,Vendor_14,Office Supplies,Printer Paper,4610.89,INV-1235
+TX-1257,2026-02-04,Vendor_20,General Logistics,Shipping Boxes,4102.87,INV-1257
+TX-1040,2026-06-07,Vendor_39,Office Supplies,Printer Paper,3601.73,INV-1040
+TX-1039,2026-06-13,Vendor_9,Office Supplies,Pens,830.97,INV-1039
+TX-1181,2026-02-12,Vendor_37,IT Infrastructure,Cloud Storage Fees,3283.89,INV-1181
+TX-1327,2026-05-12,Vendor_1,General Logistics,Warehouse Shelving,2032.28,INV-1327
+TX-1469,2026-05-13,Vendor_9,General Logistics,Forklift Maintenance,2766.8,INV-1469
+TX-1408,2026-03-27,Vendor_14,IT Infrastructure,Monitor,2520.11,INV-1408
+TX-1048,2026-07-06,Vendor_5,General Logistics,Shipping Boxes,1839.64,INV-1048
+TX-1267,2026-01-20,Vendor_13,General Logistics,Forklift Maintenance,3932.97,INV-1267
+TX-1217,2026-05-21,Vendor_33,Office Supplies,Desk Organizers,4094.59,INV-1217
+TX-1207,2026-04-03,Vendor_19,General Logistics,Packing Tape,1648.11,INV-1207
+TX-1234,2026-02-04,Vendor_13,Office Supplies,Whiteboard Markers,2935.75,INV-1234
+TX-1231,2026-07-01,Vendor_42,Office Supplies,Printer Paper,216.59,INV-1231
+TX-1224,2026-04-30,Vendor_4,Office Supplies,Whiteboard Markers,3262.43,INV-1224
+TX-1106,2026-01-13,Vendor_38,General Logistics,Warehouse Shelving,602.0,INV-1106
+TX-9993,2026-06-03,TechCorp,IT Infrastructure,Dell XPS 15 Laptop,2500.0,INV-777-A
+TX-1194,2026-07-10,Vendor_3,Office Supplies,Printer Paper,1161.47,INV-1194
+TX-1202,2026-06-13,Vendor_1,Office Supplies,Desk Organizers,1905.1,INV-1202
+TX-1280,2026-05-19,Vendor_49,General Logistics,Packing Tape,3349.34,INV-1280
+TX-1332,2026-06-24,Vendor_36,Office Supplies,Desk Organizers,2475.11,INV-1332
+TX-1228,2026-06-23,Vendor_14,Office Supplies,Whiteboard Markers,3214.68,INV-1228
+TX-1371,2026-04-29,Vendor_15,Office Supplies,Desk Organizers,2935.38,INV-1371
+TX-1331,2026-06-02,Vendor_10,IT Infrastructure,Cloud Storage Fees,1737.3,INV-1331
+TX-1497,2026-06-24,Vendor_13,IT Infrastructure,Ethernet Cables,2132.28,INV-1497
+TX-1287,2026-07-11,Vendor_23,General Logistics,Forklift Maintenance,773.15,INV-1287
+TX-1176,2026-01-24,Vendor_44,Office Supplies,Staplers,1282.52,INV-1176
+TX-1465,2026-05-18,Vendor_42,IT Infrastructure,Cloud Storage Fees,551.23,INV-1465
+TX-1291,2026-06-14,Vendor_37,General Logistics,Pallet Jack,300.0,INV-1291
+TX-1474,2026-06-19,Vendor_40,Office Supplies,Pens,1610.15,INV-1474
+TX-1306,2026-01-28,Vendor_40,Office Supplies,Printer Paper,3316.72,INV-1306
+TX-1111,2026-05-23,Vendor_8,General Logistics,Pallet Jack,2753.01,INV-1111
+TX-1153,2026-02-15,Vendor_4,General Logistics,Shipping Boxes,193.65,INV-1153
+TX-1381,2026-05-18,Vendor_9,General Logistics,Pallet Jack,4509.42,INV-1381
+TX-1471,2026-03-23,Vendor_33,General Logistics,Forklift Maintenance,1473.17,INV-1471
+TX-1318,2026-04-17,Vendor_31,IT Infrastructure,Server Rack,1738.11,INV-1318
+TX-1198,2026-04-18,Vendor_4,IT Infrastructure,Monitor,4876.53,INV-1198
+TX-1376,2026-02-06,Vendor_7,General Logistics,Forklift Maintenance,2129.81,INV-1376
+TX-1463,2026-04-26,Vendor_33,General Logistics,Warehouse Shelving,1542.66,INV-1463
+TX-1304,2026-02-25,Vendor_3,IT Infrastructure,Cloud Storage Fees,3491.27,INV-1304
+TX-1157,2026-01-22,Vendor_4,IT Infrastructure,Ethernet Cables,3358.1,INV-1157
+TX-1090,2026-05-11,Vendor_11,Office Supplies,Staplers,3929.26,INV-1090
+TX-1001,2026-04-30,Vendor_49,General Logistics,Pallet Jack,873.86,INV-1001
+TX-9992,2026-06-01,TechCorp,IT Infrastructure,Dell XPS 15 Laptop,2500.0,INV-777
+TX-1017,2026-02-25,Vendor_49,IT Infrastructure,Monitor,664.84,INV-1017
+TX-1323,2026-03-09,Vendor_20,IT Infrastructure,Cloud Storage Fees,2385.06,INV-1323
+TX-1334,2026-04-29,Vendor_32,Office Supplies,Pens,3250.31,INV-1334
+TX-1258,2026-02-06,Vendor_6,General Logistics,Warehouse Shelving,4023.66,INV-1258
+TX-1405,2026-06-14,Vendor_13,IT Infrastructure,Monitor,3078.46,INV-1405
+TX-1107,2026-03-23,Vendor_36,IT Infrastructure,Ethernet Cables,1453.77,INV-1107
+TX-1325,2026-05-04,Vendor_5,Office Supplies,Desk Organizers,962.38,INV-1325
+TX-1451,2026-04-12,Vendor_40,IT Infrastructure,Monitor,318.52,INV-1451
+TX-1417,2026-02-08,Vendor_13,General Logistics,Pallet Jack,3915.84,INV-1417
+TX-1441,2026-03-24,Vendor_30,IT Infrastructure,Cloud Storage Fees,3997.3,INV-1441
+TX-1461,2026-03-01,Vendor_34,IT Infrastructure,Router,4252.3,INV-1461
+TX-9998,2026-07-20,,Office Supplies,Printer Ink,120.0,INV-9998
+TX-1183,2026-02-27,Vendor_49,IT Infrastructure,Cloud Storage Fees,684.33,INV-1183
+TX-1480,2026-07-02,Vendor_37,Office Supplies,Desk Organizers,275.79,INV-1480
+TX-1223,2026-05-16,Vendor_18,Office Supplies,Printer Paper,4169.3,INV-1223
+TX-1431,2026-05-23,Vendor_48,General Logistics,Forklift Maintenance,3758.88,INV-1431
+TX-1295,2026-04-11,Vendor_1,General Logistics,Forklift Maintenance,2474.16,INV-1295
+TX-1089,2026-04-28,Vendor_16,IT Infrastructure,Cloud Storage Fees,940.49,INV-1089
+TX-1260,2026-07-18,Vendor_12,IT Infrastructure,Server Rack,1406.59,INV-1260
+TX-1363,2026-03-28,Vendor_49,IT Infrastructure,Monitor,2688.82,INV-1363
+TX-1119,2026-07-16,Vendor_22,Office Supplies,Pens,1345.53,INV-1119
+TX-1021,2026-05-27,Vendor_22,General Logistics,Pallet Jack,2850.18,INV-1021
+TX-1004,2026-05-19,Vendor_44,Office Supplies,Staplers,2321.09,INV-1004
+TX-1275,2026-07-01,Vendor_50,IT Infrastructure,Server Rack,3190.91,INV-1275
+TX-1302,2026-03-19,Vendor_14,IT Infrastructure,Router,1066.13,INV-1302
+TX-1187,2026-07-18,Vendor_38,Office Supplies,Pens,913.26,INV-1187
+TX-1214,2026-05-21,Vendor_29,IT Infrastructure,Router,2674.63,INV-1214
+TX-1298,2026-05-10,Vendor_8,General Logistics,Forklift Maintenance,3958.66,INV-1298
+TX-1305,2026-05-22,Vendor_2,General Logistics,Packing Tape,891.88,INV-1305
+TX-1299,2026-03-08,Vendor_39,IT Infrastructure,Cloud Storage Fees,1988.91,INV-1299
+TX-1315,2026-03-02,Vendor_30,General Logistics,Pallet Jack,992.65,INV-1315
+TX-1449,2026-03-18,Vendor_19,IT Infrastructure,Server Rack,538.67,INV-1449
+TX-1068,2026-06-25,Vendor_41,Office Supplies,Pens,3815.58,INV-1068
+TX-1158,2026-01-10,Vendor_7,IT Infrastructure,Server Rack,2977.02,INV-1158
+TX-1078,2026-01-23,Vendor_25,General Logistics,Shipping Boxes,1798.58,INV-1078
+TX-1103,2026-04-29,Vendor_22,IT Infrastructure,Ethernet Cables,1984.76,INV-1103
+TX-1060,2026-04-30,Vendor_37,General Logistics,Forklift Maintenance,533.02,INV-1060
+TX-1067,2026-06-18,Vendor_27,Office Supplies,Printer Paper,2384.05,INV-1067
+TX-1009,2026-02-08,Vendor_18,Office Supplies,Printer Paper,1717.53,INV-1009
+TX-1351,2026-03-13,Vendor_32,General Logistics,Pallet Jack,227.25,INV-1351
+TX-1345,2026-04-18,Vendor_4,IT Infrastructure,Cloud Storage Fees,4448.93,INV-1345
+TX-1154,2026-03-29,Vendor_15,IT Infrastructure,Router,2016.95,INV-1154
+TX-1403,2026-02-11,Vendor_18,IT Infrastructure,Router,962.8,INV-1403
+TX-1266,2026-06-26,Vendor_38,General Logistics,Shipping Boxes,4738.57,INV-1266
+TX-1499,2026-04-30,Vendor_30,Office Supplies,Pens,3914.48,INV-1499
+TX-1136,2026-02-07,Vendor_23,Office Supplies,Pens,1837.07,INV-1136
+TX-1350,2026-04-10,Vendor_25,General Logistics,Forklift Maintenance,3975.89,INV-1350
+TX-1372,2026-03-10,Vendor_2,General Logistics,Packing Tape,3868.0,INV-1372
+TX-1081,2026-02-21,Vendor_48,Office Supplies,Whiteboard Markers,1546.35,INV-1081
+TX-1348,2026-05-26,Vendor_25,IT Infrastructure,Server Rack,1424.73,INV-1348
+TX-1374,2026-01-20,Vendor_15,IT Infrastructure,Ethernet Cables,1653.69,INV-1374
+TX-1124,2026-01-25,Vendor_34,IT Infrastructure,Monitor,1043.64,INV-1124
+TX-1018,2026-02-01,Vendor_3,Office Supplies,Pens,2530.81,INV-1018
+TX-1310,2026-06-25,Vendor_22,General Logistics,Forklift Maintenance,1637.64,INV-1310
+TX-1390,2026-07-10,Vendor_44,Office Supplies,Whiteboard Markers,3228.65,INV-1390
+TX-1101,2026-04-07,Vendor_50,General Logistics,Shipping Boxes,4815.78,INV-1101
+TX-1362,2026-05-11,Vendor_8,General Logistics,Pallet Jack,2632.7,INV-1362
+TX-1127,2026-03-07,Vendor_28,General Logistics,Shipping Boxes,3046.01,INV-1127
+TX-1364,2026-05-08,Vendor_6,IT Infrastructure,Monitor,718.16,INV-1364
+TX-1270,2026-04-01,Vendor_32,Office Supplies,Desk Organizers,4949.99,INV-1270
+TX-1226,2026-05-30,Vendor_24,General Logistics,Warehouse Shelving,4849.4,INV-1226
+TX-1456,2026-04-15,Vendor_19,Office Supplies,Pens,1896.26,INV-1456
+TX-1069,2026-05-12,Vendor_15,Office Supplies,Desk Organizers,292.4,INV-1069
+TX-1104,2026-05-07,Vendor_34,IT Infrastructure,Router,2762.46,INV-1104
+TX-1110,2026-01-22,Vendor_37,Office Supplies,Whiteboard Markers,4516.4,INV-1110
+TX-1175,2026-07-20,Vendor_26,IT Infrastructure,Server Rack,2044.91,INV-1175
+TX-1121,2026-03-09,Vendor_28,Office Supplies,Whiteboard Markers,221.56,INV-1121
+TX-1337,2026-01-06,Vendor_25,Office Supplies,Staplers,2992.43,INV-1337
+TX-1415,2026-03-14,Vendor_48,Office Supplies,Whiteboard Markers,2734.18,INV-1415
+TX-1216,2026-02-16,Vendor_37,Office Supplies,Whiteboard Markers,4871.84,INV-1216
+TX-1312,2026-06-07,Vendor_2,Office Supplies,Pens,4228.3,INV-1312
+TX-1284,2026-05-20,Vendor_33,General Logistics,Warehouse Shelving,60.95,INV-1284
+TX-1479,2026-01-23,Vendor_29,General Logistics,Packing Tape,3427.47,INV-1479
+TX-1099,2026-02-12,Vendor_5,Office Supplies,Whiteboard Markers,916.58,INV-1099
+TX-1354,2026-03-26,Vendor_48,IT Infrastructure,Cloud Storage Fees,4988.69,INV-1354
+TX-1215,2026-03-30,Vendor_18,IT Infrastructure,Cloud Storage Fees,3901.25,INV-1215
+TX-1083,2026-02-19,Vendor_20,IT Infrastructure,Monitor,3993.4,INV-1083
+TX-1491,2026-07-05,Vendor_36,Office Supplies,Pens,540.68,INV-1491
+TX-1173,2026-03-13,Vendor_25,Office Supplies,Pens,2166.78,INV-1173
+TX-1438,2026-07-15,Vendor_37,General Logistics,Pallet Jack,2231.51,INV-1438
+TX-1416,2026-04-27,Vendor_2,Office Supplies,Pens,1505.94,INV-1416
+TX-1041,2026-01-13,Vendor_46,Office Supplies,Desk Organizers,1063.15,INV-1041
+TX-1152,2026-01-19,Vendor_18,General Logistics,Shipping Boxes,626.84,INV-1152
+TX-1209,2026-01-22,Vendor_30,IT Infrastructure,Ethernet Cables,1186.21,INV-1209
+TX-1250,2026-07-09,Vendor_17,Office Supplies,Desk Organizers,2214.02,INV-1250
+TX-1426,2026-06-24,Vendor_21,IT Infrastructure,Server Rack,1984.34,INV-1426
+TX-1423,2026-03-15,Vendor_44,IT Infrastructure,Cloud Storage Fees,3155.28,INV-1423
+TX-1230,2026-02-11,Vendor_26,General Logistics,Shipping Boxes,2354.88,INV-1230
+TX-1108,2026-01-20,Vendor_36,Office Supplies,Desk Organizers,3877.17,INV-1108
+TX-1361,2026-02-22,Vendor_30,Office Supplies,Pens,2075.34,INV-1361
+TX-9997,2026-07-04,Consulting_LLC,IT Infrastructure,Network Audit Services,9900.0,INV-8883
+TX-1286,2026-02-07,Vendor_43,Office Supplies,Printer Paper,4739.38,INV-1286
+TX-1241,2026-01-18,Vendor_10,IT Infrastructure,Server Rack,908.53,INV-1241
+TX-1367,2026-03-21,Vendor_48,Office Supplies,Printer Paper,3891.71,INV-1367
+TX-1047,2026-05-12,Vendor_20,General Logistics,Shipping Boxes,2838.52,INV-1047
+TX-1097,2026-04-23,Vendor_20,Office Supplies,Printer Paper,2489.06,INV-1097
+TX-1169,2026-03-18,Vendor_22,Office Supplies,Pens,2449.61,INV-1169
+TX-9991,2026-05-12,Vendor_12,General Logistics,Sony PlayStation 5 Console,499.0,INV-9991
+TX-1125,2026-01-27,Vendor_31,IT Infrastructure,Router,1669.57,INV-1125
+TX-1437,2026-05-08,Vendor_16,General Logistics,Shipping Boxes,1998.35,INV-1437
+TX-1357,2026-03-11,Vendor_21,IT Infrastructure,Server Rack,3217.4,INV-1357
+TX-1495,2026-03-19,Vendor_12,Office Supplies,Whiteboard Markers,799.19,INV-1495
+TX-1450,2026-01-15,Vendor_9,IT Infrastructure,Router,1658.02,INV-1450
+TX-1087,2026-05-04,Vendor_34,Office Supplies,Desk Organizers,728.38,INV-1087
+TX-1444,2026-06-12,Vendor_27,General Logistics,Pallet Jack,2280.11,INV-1444
+TX-1498,2026-07-14,Vendor_37,Office Supplies,Whiteboard Markers,1076.76,INV-1498
+TX-1059,2026-04-11,Vendor_28,General Logistics,Warehouse Shelving,4054.56,INV-1059
+TX-1123,2026-07-17,Vendor_22,General Logistics,Forklift Maintenance,915.73,INV-1123
+TX-1482,2026-06-23,Vendor_36,Office Supplies,Staplers,964.01,INV-1482
+TX-1146,2026-02-17,Vendor_42,Office Supplies,Printer Paper,1427.43,INV-1146
+TX-1278,2026-01-06,Vendor_28,IT Infrastructure,Server Rack,182.79,INV-1278
+TX-1460,2026-07-03,Vendor_29,General Logistics,Warehouse Shelving,4353.88,INV-1460
+TX-1429,2026-04-06,Vendor_21,IT Infrastructure,Server Rack,3658.72,INV-1429
+TX-1296,2026-04-29,Vendor_9,Office Supplies,Printer Paper,4492.4,INV-1296
+TX-1188,2026-02-16,Vendor_21,General Logistics,Shipping Boxes,1686.76,INV-1188
+TX-1019,2026-01-20,Vendor_19,IT Infrastructure,Monitor,2949.82,INV-1019
+TX-1212,2026-05-30,Vendor_6,Office Supplies,Printer Paper,2556.22,INV-1212
+TX-1251,2026-06-15,Vendor_3,Office Supplies,Whiteboard Markers,3651.31,INV-1251
+TX-1014,2026-02-11,Vendor_14,Office Supplies,Printer Paper,3786.68,INV-1014
+TX-1042,2026-01-01,Vendor_48,Office Supplies,Pens,4380.15,INV-1042
+TX-1002,2026-07-10,Vendor_32,Office Supplies,Printer Paper,259.13,INV-1002
+TX-1394,2026-03-26,Vendor_45,IT Infrastructure,Server Rack,2189.6,INV-1394
+TX-1142,2026-04-11,Vendor_49,IT Infrastructure,Monitor,2006.45,INV-1142
+TX-1116,2026-01-31,Vendor_33,General Logistics,Pallet Jack,4496.38,INV-1116
+TX-1411,2026-06-15,Vendor_46,IT Infrastructure,Ethernet Cables,3594.66,INV-1411
+TX-1420,2026-04-04,Vendor_31,Office Supplies,Staplers,4539.66,INV-1420
+TX-1272,2026-06-20,Vendor_5,Office Supplies,Staplers,294.8,INV-1272
+TX-1208,2026-03-10,Vendor_21,Office Supplies,Printer Paper,1415.46,INV-1208
+TX-1025,2026-06-14,Vendor_46,Office Supplies,Staplers,4864.85,INV-1025
+TX-1005,2026-05-03,Vendor_3,Office Supplies,Whiteboard Markers,4459.3,INV-1005
+TX-1161,2026-01-26,Vendor_45,General Logistics,Packing Tape,3369.77,INV-1161
+TX-1470,2026-01-19,Vendor_49,General Logistics,Forklift Maintenance,153.96,INV-1470
+TX-1468,2026-05-10,Vendor_15,IT Infrastructure,Server Rack,146.06,INV-1468
+TX-1434,2026-06-12,Vendor_38,IT Infrastructure,Cloud Storage Fees,2292.19,INV-1434
+TX-1071,2026-05-30,Vendor_25,Office Supplies,Printer Paper,4264.66,INV-1071
+TX-1262,2026-02-26,Vendor_2,Office Supplies,Desk Organizers,467.95,INV-1262
+TX-1432,2026-06-29,Vendor_20,Office Supplies,Staplers,4378.22,INV-1432
+TX-1481,2026-06-12,Vendor_3,IT Infrastructure,Monitor,2450.62,INV-1481
+TX-1245,2026-07-19,Vendor_20,General Logistics,Shipping Boxes,1736.79,INV-1245
+TX-1113,2026-06-06,Vendor_36,IT Infrastructure,Ethernet Cables,73.34,INV-1113
+TX-1338,2026-07-03,Vendor_25,General Logistics,Warehouse Shelving,241.06,INV-1338
+TX-1483,2026-03-07,Vendor_43,IT Infrastructure,Cloud Storage Fees,511.83,INV-1483
+TX-1475,2026-07-08,Vendor_14,General Logistics,Forklift Maintenance,4344.39,INV-1475
+TX-1427,2026-03-12,Vendor_21,Office Supplies,Desk Organizers,3976.63,INV-1427
+TX-1404,2026-04-28,Vendor_26,Office Supplies,Whiteboard Markers,1846.99,INV-1404
+TX-9994,2026-07-01,Consulting_LLC,IT Infrastructure,Network Audit Services,9900.0,INV-8880
+TX-1114,2026-01-28,Vendor_40,IT Infrastructure,Server Rack,3409.35,INV-1114
+TX-1464,2026-01-20,Vendor_15,IT Infrastructure,Cloud Storage Fees,3264.85,INV-1464
+TX-1166,2026-05-17,Vendor_27,Office Supplies,Printer Paper,2813.91,INV-1166
+TX-1094,2026-07-13,Vendor_11,General Logistics,Packing Tape,3607.53,INV-1094
+TX-1442,2026-05-05,Vendor_1,Office Supplies,Desk Organizers,2183.35,INV-1442
+TX-1170,2026-01-03,Vendor_1,General Logistics,Warehouse Shelving,1585.12,INV-1170
+TX-1171,2026-06-09,Vendor_7,General Logistics,Packing Tape,2574.83,INV-1171
+TX-1132,2026-06-19,Vendor_26,Office Supplies,Staplers,1518.28,INV-1132
+TX-1155,2026-06-09,Vendor_45,IT Infrastructure,Cloud Storage Fees,1389.17,INV-1155
+TX-1028,2026-04-05,Vendor_30,IT Infrastructure,Cloud Storage Fees,487.69,INV-1028
+TX-1007,2026-03-22,Vendor_13,IT Infrastructure,Monitor,1787.42,INV-1007
+TX-1402,2026-02-07,Vendor_1,General Logistics,Packing Tape,4598.38,INV-1402
+TX-1003,2026-05-20,Vendor_43,General Logistics,Packing Tape,2548.37,INV-1003
+TX-1164,2026-07-15,Vendor_15,IT Infrastructure,Monitor,1596.05,INV-1164
+TX-1088,2026-01-11,Vendor_22,Office Supplies,Printer Paper,4540.74,INV-1088
+TX-1055,2026-01-10,Vendor_31,IT Infrastructure,Server Rack,1866.64,INV-1055
+TX-1276,2026-07-01,Vendor_5,Office Supplies,Pens,1399.38,INV-1276
+TX-1193,2026-06-23,Vendor_5,General Logistics,Pallet Jack,3975.63,INV-1193
+TX-1249,2026-03-09,Vendor_41,General Logistics,Packing Tape,2792.98,INV-1249
+TX-1149,2026-05-25,Vendor_2,Office Supplies,Desk Organizers,4333.35,INV-1149
+TX-1053,2026-01-19,Vendor_27,IT Infrastructure,Ethernet Cables,4740.58,INV-1053
+TX-1330,2026-02-22,Vendor_32,Office Supplies,Desk Organizers,140.88,INV-1330
+TX-1329,2026-06-04,Vendor_21,Office Supplies,Whiteboard Markers,983.59,INV-1329
+TX-1065,2026-01-08,Vendor_47,IT Infrastructure,Server Rack,3286.26,INV-1065
+TX-1316,2026-01-06,Vendor_20,General Logistics,Packing Tape,4935.67,INV-1316
+TX-1478,2026-07-10,Vendor_10,Office Supplies,Pens,2513.17,INV-1478
+TX-1333,2026-01-22,Vendor_30,General Logistics,Pallet Jack,1589.58,INV-1333
+TX-1140,2026-04-27,Vendor_30,IT Infrastructure,Router,4540.54,INV-1140
+TX-1133,2026-05-11,Vendor_22,General Logistics,Packing Tape,3238.1,INV-1133
+TX-1213,2026-07-20,Vendor_18,IT Infrastructure,Cloud Storage Fees,414.64,INV-1213
+TX-1218,2026-01-27,Vendor_12,Office Supplies,Desk Organizers,4695.53,INV-1218
+TX-1370,2026-01-06,Vendor_15,Office Supplies,Desk Organizers,3986.33,INV-1370
+TX-1092,2026-01-06,Vendor_40,IT Infrastructure,Server Rack,566.32,INV-1092
+TX-1392,2026-01-21,Vendor_20,IT Infrastructure,Monitor,1610.57,INV-1392
+TX-1159,2026-02-10,Vendor_27,Office Supplies,Pens,4364.56,INV-1159
+TX-1179,2026-04-06,Vendor_6,Office Supplies,Whiteboard Markers,3751.0,INV-1179
+TX-1454,2026-03-24,Vendor_23,General Logistics,Shipping Boxes,701.67,INV-1454
+TX-1255,2026-07-05,Vendor_8,General Logistics,Packing Tape,1607.18,INV-1255
+TX-1156,2026-06-03,Vendor_22,Office Supplies,Staplers,2792.05,INV-1156
+TX-1292,2026-06-06,Vendor_24,IT Infrastructure,Router,4251.81,INV-1292
+TX-1277,2026-02-26,Vendor_1,General Logistics,Warehouse Shelving,4616.38,INV-1277
+TX-1070,2026-03-30,Vendor_42,General Logistics,Packing Tape,2488.55,INV-1070
+TX-1167,2026-01-21,Vendor_44,Office Supplies,Staplers,4271.15,INV-1167
+TX-1313,2026-01-31,Vendor_48,Office Supplies,Desk Organizers,2440.82,INV-1313
+TX-1494,2026-03-30,Vendor_23,Office Supplies,Staplers,3695.03,INV-1494
+TX-1445,2026-03-24,Vendor_37,IT Infrastructure,Server Rack,3034.23,INV-1445
+TX-1095,2026-05-19,Vendor_35,Office Supplies,Staplers,2006.02,INV-1095
+TX-1086,2026-05-06,Vendor_33,IT Infrastructure,Monitor,4593.54,INV-1086
+TX-1324,2026-01-31,Vendor_5,General Logistics,Warehouse Shelving,3170.24,INV-1324
+TX-1117,2026-03-18,Vendor_45,General Logistics,Forklift Maintenance,1096.15,INV-1117
+TX-1301,2026-02-26,Vendor_7,General Logistics,Pallet Jack,4111.72,INV-1301
+TX-1182,2026-03-07,Vendor_21,IT Infrastructure,Ethernet Cables,1898.21,INV-1182
+TX-1384,2026-07-17,Vendor_34,IT Infrastructure,Monitor,339.87,INV-1384
+TX-1200,2026-02-15,Vendor_20,General Logistics,Shipping Boxes,3605.64,INV-1200
+TX-1211,2026-01-06,Vendor_21,Office Supplies,Desk Organizers,844.5,INV-1211
+TX-1422,2026-06-12,Vendor_11,IT Infrastructure,Ethernet Cables,1871.53,INV-1422
+TX-1414,2026-05-04,Vendor_26,General Logistics,Packing Tape,3499.28,INV-1414
+TX-1034,2026-03-01,Vendor_21,General Logistics,Forklift Maintenance,3741.7,INV-1034
+TX-1072,2026-04-09,Vendor_1,General Logistics,Pallet Jack,2471.62,INV-1072
+TX-1424,2026-02-16,Vendor_30,IT Infrastructure,Cloud Storage Fees,2817.1,INV-1424
+TX-1148,2026-02-17,Vendor_32,General Logistics,Shipping Boxes,1612.1,INV-1148
+TX-1328,2026-05-04,Vendor_46,General Logistics,Pallet Jack,3393.39,INV-1328
+TX-1393,2026-04-07,Vendor_30,Office Supplies,Printer Paper,663.94,INV-1393
+TX-1462,2026-04-15,Vendor_32,Office Supplies,Pens,2229.74,INV-1462
+TX-1064,2026-03-01,Vendor_8,IT Infrastructure,Monitor,4571.94,INV-1064
+TX-1232,2026-01-20,Vendor_24,IT Infrastructure,Server Rack,942.95,INV-1232
+TX-1238,2026-05-08,Vendor_33,IT Infrastructure,Server Rack,2966.25,INV-1238
+TX-1128,2026-07-04,Vendor_50,IT Infrastructure,Server Rack,3811.55,INV-1128
+TX-1192,2026-01-02,Vendor_37,IT Infrastructure,Ethernet Cables,3504.87,INV-1192
+TX-1366,2026-01-31,Vendor_45,Office Supplies,Printer Paper,1554.0,INV-1366
+TX-1346,2026-01-12,Vendor_22,General Logistics,Packing Tape,549.05,INV-1346
+TX-1359,2026-02-22,Vendor_50,IT Infrastructure,Server Rack,418.0,INV-1359
+TX-1440,2026-05-30,Vendor_44,Office Supplies,Desk Organizers,4313.94,INV-1440
+TX-1453,2026-03-09,Vendor_37,Office Supplies,Desk Organizers,542.56,INV-1453
+TX-1016,2026-01-22,Vendor_18,Office Supplies,Desk Organizers,3862.75,INV-1016
+TX-1263,2026-01-24,Vendor_48,Office Supplies,Printer Paper,423.05,INV-1263
+TX-1112,2026-03-10,Vendor_39,Office Supplies,Whiteboard Markers,3885.96,INV-1112
+TX-1282,2026-03-01,Vendor_40,Office Supplies,Desk Organizers,686.13,INV-1282
+TX-1079,2026-04-27,Vendor_16,Office Supplies,Staplers,2410.66,INV-1079
+TX-1162,2026-06-10,Vendor_44,IT Infrastructure,Ethernet Cables,4458.95,INV-1162
+TX-1102,2026-05-15,Vendor_46,IT Infrastructure,Cloud Storage Fees,837.75,INV-1102
+TX-1185,2026-03-22,Vendor_47,General Logistics,Warehouse Shelving,4857.44,INV-1185
+TX-1342,2026-01-28,Vendor_10,Office Supplies,Printer Paper,3114.65,INV-1342
+TX-1100,2026-05-04,Vendor_21,General Logistics,Warehouse Shelving,3153.26,INV-1100
+TX-1264,2026-04-19,Vendor_44,Office Supplies,Desk Organizers,4787.86,INV-1264
+TX-1385,2026-02-10,Vendor_34,General Logistics,Pallet Jack,500.22,INV-1385
+TX-1308,2026-06-05,Vendor_4,IT Infrastructure,Ethernet Cables,2730.98,INV-1308
+TX-1466,2026-07-17,Vendor_17,General Logistics,Warehouse Shelving,2668.45,INV-1466
+TX-1203,2026-07-15,Vendor_41,IT Infrastructure,Monitor,4589.11,INV-1203
+TX-1321,2026-07-10,Vendor_41,General Logistics,Forklift Maintenance,4603.65,INV-1321
+TX-1178,2026-01-22,Vendor_26,IT Infrastructure,Router,1815.26,INV-1178
+TX-1448,2026-04-06,Vendor_36,IT Infrastructure,Monitor,3756.81,INV-1448
+TX-1024,2026-05-11,Vendor_14,General Logistics,Forklift Maintenance,3698.65,INV-1024
+TX-1252,2026-05-22,Vendor_4,IT Infrastructure,Server Rack,74.11,INV-1252
+TX-1029,2026-03-12,Vendor_11,IT Infrastructure,Monitor,247.32,INV-1029
+TX-1452,2026-04-08,Vendor_15,General Logistics,Packing Tape,1757.0,INV-1452
+TX-1036,2026-01-04,Vendor_47,Office Supplies,Staplers,2132.34,INV-1036
+TX-1317,2026-06-26,Vendor_2,IT Infrastructure,Ethernet Cables,349.73,INV-1317
+TX-1082,2026-03-07,Vendor_40,Office Supplies,Printer Paper,945.18,INV-1082
+TX-1074,2026-07-16,Vendor_37,Office Supplies,Pens,3083.77,INV-1074
+TX-1300,2026-02-11,Vendor_22,General Logistics,Pallet Jack,3958.7,INV-1300
+TX-1085,2026-01-03,Vendor_23,General Logistics,Packing Tape,1755.59,INV-1085
+TX-1458,2026-06-02,Vendor_29,IT Infrastructure,Router,139.3,INV-1458
+TX-1326,2026-02-07,Vendor_5,Office Supplies,Pens,2415.32,INV-1326
+TX-1240,2026-06-10,Vendor_44,IT Infrastructure,Ethernet Cables,2023.68,INV-1240
+TX-1201,2026-05-14,Vendor_31,IT Infrastructure,Cloud Storage Fees,4147.95,INV-1201
+TX-1360,2026-02-27,Vendor_1,Office Supplies,Desk Organizers,771.95,INV-1360
+TX-1476,2026-07-04,Vendor_37,Office Supplies,Whiteboard Markers,1467.59,INV-1476
+TX-1190,2026-01-27,Vendor_44,IT Infrastructure,Ethernet Cables,1906.61,INV-1190
+TX-1076,2026-05-17,Vendor_38,General Logistics,Shipping Boxes,4487.24,INV-1076
+TX-1063,2026-07-19,Vendor_17,Office Supplies,Staplers,771.76,INV-1063
+TX-1233,2026-02-25,Vendor_36,IT Infrastructure,Ethernet Cables,2487.96,INV-1233
+TX-1387,2026-04-05,Vendor_38,IT Infrastructure,Router,4172.87,INV-1387
+TX-1220,2026-05-22,Vendor_4,IT Infrastructure,Server Rack,3584.26,INV-1220
+TX-1418,2026-04-14,Vendor_21,General Logistics,Shipping Boxes,2753.65,INV-1418
+TX-1457,2026-03-08,Vendor_41,Office Supplies,Staplers,4586.09,INV-1457
+TX-1341,2026-04-03,Vendor_38,General Logistics,Forklift Maintenance,3488.37,INV-1341
+TX-1401,2026-01-07,Vendor_6,Office Supplies,Desk Organizers,2683.87,INV-1401
+TX-1130,2026-01-04,Vendor_47,Office Supplies,Desk Organizers,1682.02,INV-1130
+TX-1425,2026-05-18,Vendor_47,General Logistics,Packing Tape,1532.79,INV-1425
+TX-1493,2026-05-16,Vendor_15,Office Supplies,Whiteboard Markers,4719.15,INV-1493
+TX-1396,2026-05-18,Vendor_34,Office Supplies,Whiteboard Markers,3588.18,INV-1396
+TX-1244,2026-01-30,Vendor_39,Office Supplies,Whiteboard Markers,268.36,INV-1244
+TX-1347,2026-02-19,Vendor_11,Office Supplies,Pens,4338.03,INV-1347
+TX-1137,2026-01-07,Vendor_20,General Logistics,Forklift Maintenance,2568.72,INV-1137
+TX-1412,2026-03-07,Vendor_24,Office Supplies,Desk Organizers,4465.3,INV-1412
+TX-1126,2026-03-01,Vendor_11,General Logistics,Pallet Jack,1221.48,INV-1126
+TX-1259,2026-02-09,Vendor_5,Office Supplies,Printer Paper,1670.64,INV-1259
+TX-1486,2026-03-24,Vendor_15,Office Supplies,Pens,1327.29,INV-1486
+TX-1206,2026-04-03,Vendor_13,Office Supplies,Desk Organizers,2649.92,INV-1206
+TX-1413,2026-03-10,Vendor_11,IT Infrastructure,Router,484.77,INV-1413
+TX-1386,2026-03-08,Vendor_6,Office Supplies,Pens,871.15,INV-1386
+TX-1129,2026-05-18,Vendor_16,General Logistics,Packing Tape,2577.15,INV-1129
+TX-1477,2026-06-23,Vendor_7,General Logistics,Warehouse Shelving,1957.05,INV-1477
+TX-1352,2026-03-29,Vendor_20,IT Infrastructure,Server Rack,4124.58,INV-1352
+TX-1144,2026-07-05,Vendor_13,Office Supplies,Desk Organizers,2541.1,INV-1144
+TX-1380,2026-03-19,Vendor_15,General Logistics,Shipping Boxes,2499.24,INV-1380
+TX-1237,2026-06-16,Vendor_18,Office Supplies,Desk Organizers,587.76,INV-1237
+TX-1093,2026-03-15,Vendor_30,IT Infrastructure,Cloud Storage Fees,3880.76,INV-1093
+TX-1168,2026-04-27,Vendor_3,Office Supplies,Pens,867.45,INV-1168
+TX-1271,2026-03-04,Vendor_45,Office Supplies,Staplers,476.88,INV-1271
+TX-1056,2026-05-20,Vendor_24,IT Infrastructure,Server Rack,1792.31,INV-1056
+TX-1242,2026-06-11,Vendor_41,IT Infrastructure,Cloud Storage Fees,161.45,INV-1242
+TX-1008,2026-02-08,Vendor_17,Office Supplies,Staplers,1968.92,INV-1008
+TX-1180,2026-02-11,Vendor_40,IT Infrastructure,Monitor,956.64,INV-1180
+TX-1389,2026-06-10,Vendor_38,IT Infrastructure,Router,1232.31,INV-1389
+TX-9995,2026-07-02,Consulting_LLC,IT Infrastructure,Network Audit Services,9900.0,INV-8881
+TX-1189,2026-04-17,Vendor_25,IT Infrastructure,Ethernet Cables,1212.13,INV-1189
+TX-1430,2026-04-21,Vendor_42,Office Supplies,Printer Paper,4934.77,INV-1430
+TX-1388,2026-04-26,Vendor_46,IT Infrastructure,Cloud Storage Fees,1155.7,INV-1388
+TX-1419,2026-06-11,Vendor_45,Office Supplies,Printer Paper,3835.72,INV-1419
+TX-1075,2026-05-27,Vendor_24,Office Supplies,Pens,2341.66,INV-1075
+TX-1377,2026-05-16,Vendor_32,General Logistics,Forklift Maintenance,2902.57,INV-1377
+TX-1253,2026-03-19,Vendor_43,IT Infrastructure,Cloud Storage Fees,237.38,INV-1253
+TX-1265,2026-06-23,Vendor_13,Office Supplies,Printer Paper,3734.79,INV-1265
+TX-1246,2026-04-14,Vendor_6,General Logistics,Shipping Boxes,4856.05,INV-1246
+TX-1199,2026-01-10,Vendor_38,General Logistics,Pallet Jack,4727.94,INV-1199
+TX-1049,2026-06-26,Vendor_34,IT Infrastructure,Cloud Storage Fees,251.72,INV-1049
+TX-1037,2026-04-23,Vendor_25,Office Supplies,Printer Paper,1940.97,INV-1037
+TX-1421,2026-01-24,Vendor_7,Office Supplies,Whiteboard Markers,1032.75,INV-1421
+TX-1227,2026-03-24,Vendor_26,Office Supplies,Pens,4110.36,INV-1227
+TX-1368,2026-04-08,Vendor_13,General Logistics,Pallet Jack,4600.35,INV-1368
+TX-1236,2026-02-25,Vendor_48,General Logistics,Packing Tape,1842.81,INV-1236
+TX-1033,2026-02-14,Vendor_3,General Logistics,Pallet Jack,1608.28,INV-1033
+TX-1256,2026-02-06,Vendor_29,General Logistics,Forklift Maintenance,3123.58,INV-1256
+TX-1150,2026-01-19,Vendor_2,General Logistics,Packing Tape,4805.8,INV-1150
+TX-1160,2026-06-20,Vendor_20,General Logistics,Forklift Maintenance,1821.09,INV-1160
+TX-1050,2026-02-27,Vendor_41,General Logistics,Warehouse Shelving,1798.23,INV-1050
+TX-1243,2026-03-02,Vendor_49,General Logistics,Pallet Jack,4514.98,INV-1243
+TX-1355,2026-02-21,Vendor_36,IT Infrastructure,Monitor,4785.7,INV-1355
+TX-1225,2026-05-03,Vendor_18,Office Supplies,Pens,2078.21,INV-1225
+TX-1045,2026-06-20,Vendor_31,IT Infrastructure,Ethernet Cables,3617.63,INV-1045
+TX-1439,2026-01-08,Vendor_20,Office Supplies,Staplers,2444.43,INV-1439
+TX-1273,2026-02-25,Vendor_28,Office Supplies,Staplers,2478.32,INV-1273
+TX-1165,2026-06-14,Vendor_39,Office Supplies,Whiteboard Markers,3431.32,INV-1165
+TX-1139,2026-03-01,Vendor_43,IT Infrastructure,Cloud Storage Fees,4678.96,INV-1139
+TX-1210,2026-01-24,Vendor_50,Office Supplies,Whiteboard Markers,255.87,INV-1210
+TX-1336,2026-03-31,Vendor_8,General Logistics,Pallet Jack,4575.88,INV-1336
+TX-1283,2026-06-13,Vendor_37,General Logistics,Forklift Maintenance,585.18,INV-1283
+TX-1307,2026-04-13,Vendor_37,General Logistics,Warehouse Shelving,2734.26,INV-1307
+TX-1294,2026-04-05,Vendor_18,General Logistics,Warehouse Shelving,3269.07,INV-1294
+TX-1455,2026-01-09,Vendor_42,IT Infrastructure,Ethernet Cables,999.18,INV-1455
+TX-1288,2026-06-06,Vendor_27,Office Supplies,Desk Organizers,4011.74,INV-1288
+TX-1281,2026-06-05,Vendor_43,General Logistics,Pallet Jack,4175.76,INV-1281
+TX-1490,2026-01-16,Vendor_47,General Logistics,Warehouse Shelving,3578.18,INV-1490
+TX-1268,2026-03-28,Vendor_40,IT Infrastructure,Ethernet Cables,3981.6,INV-1268
+TX-1398,2026-05-20,Vendor_38,General Logistics,Packing Tape,58.85,INV-1398
+TX-1204,2026-06-17,Vendor_11,Office Supplies,Whiteboard Markers,2496.92,INV-1204
+TX-1163,2026-02-23,Vendor_32,General Logistics,Pallet Jack,4138.86,INV-1163
+TX-1061,2026-05-09,Vendor_11,IT Infrastructure,Server Rack,1784.75,INV-1061
+TX-1026,2026-03-26,Vendor_15,General Logistics,Packing Tape,4431.85,INV-1026
+TX-1035,2026-07-06,Vendor_45,General Logistics,Warehouse Shelving,2116.16,INV-1035
+TX-1274,2026-05-08,Vendor_30,Office Supplies,Whiteboard Markers,3322.92,INV-1274
+TX-1031,2026-05-10,Vendor_48,General Logistics,Warehouse Shelving,1065.06,INV-1031
+TX-1358,2026-05-30,Vendor_11,Office Supplies,Printer Paper,3756.44,INV-1358
+TX-1135,2026-01-22,Vendor_25,Office Supplies,Staplers,2990.36,INV-1135
+TX-1322,2026-01-03,Vendor_47,IT Infrastructure,Cloud Storage Fees,4922.42,INV-1322
+TX-1077,2026-06-05,Vendor_14,General Logistics,Pallet Jack,1493.9,INV-1077
+TX-1151,2026-02-20,Vendor_21,Office Supplies,Whiteboard Markers,2888.44,INV-1151
+TX-1020,2026-03-22,Vendor_38,IT Infrastructure,Router,1810.79,INV-1020
+TX-1378,2026-02-18,Vendor_13,IT Infrastructure,Ethernet Cables,3139.91,INV-1378
+TX-1399,2026-06-04,Vendor_12,General Logistics,Pallet Jack,3996.26,INV-1399
+TX-1459,2026-01-20,Vendor_19,Office Supplies,Desk Organizers,3475.47,INV-1459
+TX-1382,2026-03-09,Vendor_32,General Logistics,Forklift Maintenance,865.17,INV-1382
+TX-1410,2026-03-06,Vendor_7,IT Infrastructure,Monitor,1999.49,INV-1410
+TX-1269,2026-06-11,Vendor_41,IT Infrastructure,Monitor,563.12,INV-1269
+TX-1109,2026-05-20,Vendor_37,IT Infrastructure,Monitor,1280.5,INV-1109
+TX-1118,2026-05-23,Vendor_8,General Logistics,Warehouse Shelving,1811.7,INV-1118
+TX-1485,2026-04-13,Vendor_45,IT Infrastructure,Monitor,3927.59,INV-1485
+TX-1013,2026-01-11,Vendor_9,Office Supplies,Pens,819.32,INV-1013
+TX-1027,2026-06-26,Vendor_30,IT Infrastructure,Cloud Storage Fees,1896.74,INV-1027
+TX-1143,2026-05-29,Vendor_15,Office Supplies,Whiteboard Markers,120.45,INV-1143
+TX-1395,2026-04-15,Vendor_34,Office Supplies,Whiteboard Markers,3668.1,INV-1395
+TX-1428,2026-03-16,Vendor_4,Office Supplies,Desk Organizers,904.44,INV-1428
+TX-1229,2026-05-13,Vendor_15,IT Infrastructure,Router,4512.31,INV-1229
+TX-1311,2026-05-16,Vendor_16,General Logistics,Pallet Jack,1144.86,INV-1311
+TX-1038,2026-05-28,Vendor_44,Office Supplies,Whiteboard Markers,4090.02,INV-1038
+TX-1391,2026-04-24,Vendor_11,General Logistics,Warehouse Shelving,2464.06,INV-1391
+TX-1285,2026-06-11,Vendor_17,IT Infrastructure,Ethernet Cables,1917.62,INV-1285
+TX-1096,2026-01-24,Vendor_9,IT Infrastructure,Ethernet Cables,3416.4,INV-1096
+TX-1303,2026-02-15,Vendor_10,Office Supplies,Whiteboard Markers,2603.42,INV-1303
+TX-1010,2026-02-05,Vendor_48,IT Infrastructure,Server Rack,627.44,INV-1010
+TX-1343,2026-05-21,Vendor_23,General Logistics,Forklift Maintenance,1862.25,INV-1343
+TX-1400,2026-04-13,Vendor_18,Office Supplies,Staplers,1999.25,INV-1400
+TX-1446,2026-06-03,Vendor_17,Office Supplies,Staplers,713.53,INV-1446
+TX-1248,2026-04-21,Vendor_14,Office Supplies,Pens,2592.68,INV-1248
+TX-1080,2026-03-02,Vendor_45,IT Infrastructure,Server Rack,1672.15,INV-1080
+TX-1500,2026-03-21,Vendor_36,General Logistics,Forklift Maintenance,3647.55,INV-1500
+TX-1320,2026-04-28,Vendor_6,Office Supplies,Pens,1037.37,INV-1320
+TX-1022,2026-01-30,Vendor_2,General Logistics,Pallet Jack,2204.69,INV-1022
+TX-1186,2026-01-15,Vendor_39,General Logistics,Pallet Jack,3167.68,INV-1186
+TX-1057,2026-01-22,Vendor_22,Office Supplies,Staplers,1255.17,INV-1057
+TX-1091,2026-05-26,Vendor_23,Office Supplies,Staplers,4669.31,INV-1091
+TX-1043,2026-03-25,Vendor_45,IT Infrastructure,Cloud Storage Fees,3094.55,INV-1043
+TX-1488,2026-06-09,Vendor_2,General Logistics,Shipping Boxes,1182.42,INV-1488
+TX-1369,2026-06-12,Vendor_6,General Logistics,Shipping Boxes,932.04,INV-1369
+TX-1066,2026-05-20,Vendor_19,Office Supplies,Desk Organizers,2102.67,INV-1066
+TX-1375,2026-04-28,Vendor_27,IT Infrastructure,Server Rack,3728.11,INV-1375
+TX-1006,2026-05-24,Vendor_16,IT Infrastructure,Router,734.07,INV-1006
+TX-1219,2026-05-24,Vendor_21,General Logistics,Warehouse Shelving,3229.06,INV-1219
+TX-1289,2026-02-07,Vendor_2,Office Supplies,Desk Organizers,1237.53,INV-1289
+TX-1436,2026-02-26,Vendor_42,Office Supplies,Whiteboard Markers,3794.45,INV-1436
+TX-1052,2026-01-09,Vendor_19,Office Supplies,Printer Paper,3354.89,INV-1052
+TX-1293,2026-07-20,Vendor_24,Office Supplies,Staplers,4542.59,INV-1293
+TX-1197,2026-06-22,Vendor_28,IT Infrastructure,Ethernet Cables,3692.12,INV-1197
+TX-1340,2026-02-03,Vendor_30,General Logistics,Packing Tape,2244.56,INV-1340
+TX-1073,2026-03-27,Vendor_42,IT Infrastructure,Router,2580.26,INV-1073
+TX-1131,2026-03-09,Vendor_1,IT Infrastructure,Cloud Storage Fees,3665.15,INV-1131
+TX-1472,2026-04-17,Vendor_35,Office Supplies,Printer Paper,2847.94,INV-1472
+TX-1383,2026-01-19,Vendor_20,Office Supplies,Printer Paper,2965.85,INV-1383
+TX-1297,2026-01-08,Vendor_16,General Logistics,Packing Tape,1959.0,INV-1297
+TX-1084,2026-05-11,Vendor_14,General Logistics,Packing Tape,4680.02,INV-1084
+TX-1012,2026-03-15,Vendor_31,Office Supplies,Whiteboard Markers,2645.93,INV-1012
+TX-1339,2026-01-11,Vendor_41,Office Supplies,Pens,4991.79,INV-1339
+TX-1098,2026-06-30,Vendor_31,IT Infrastructure,Cloud Storage Fees,3127.64,INV-1098
+TX-1015,2026-07-17,Vendor_3,Office Supplies,Printer Paper,2696.66,INV-1015
+TX-1222,2026-06-17,Vendor_32,General Logistics,Packing Tape,1505.06,INV-1222
+TX-1344,2026-01-09,Vendor_48,Office Supplies,Printer Paper,4361.24,INV-1344
+TX-9996,2026-07-03,Consulting_LLC,IT Infrastructure,Network Audit Services,9900.0,INV-8882
+TX-1254,2026-06-20,Vendor_50,IT Infrastructure,Server Rack,4916.73,INV-1254
+TX-1120,2026-01-16,Vendor_34,Office Supplies,Pens,602.62,INV-1120
+TX-1397,2026-02-07,Vendor_19,Office Supplies,Whiteboard Markers,698.7,INV-1397
+TX-1407,2026-04-28,Vendor_9,IT Infrastructure,Server Rack,4182.18,INV-1407
+TX-1051,2026-04-27,Vendor_27,IT Infrastructure,Server Rack,536.26,INV-1051
+TX-1349,2026-05-25,Vendor_44,General Logistics,Pallet Jack,192.69,INV-1349
+TX-1062,2026-04-04,Vendor_34,IT Infrastructure,Server Rack,1219.87,INV-1062
+TX-1319,2026-04-10,Vendor_24,General Logistics,Warehouse Shelving,1749.13,INV-1319
+TX-1221,2026-05-09,Vendor_14,Office Supplies,Whiteboard Markers,4726.36,INV-1221
+TX-1467,2026-05-07,Vendor_25,IT Infrastructure,Monitor,216.85,INV-1467
+TX-1309,2026-04-22,Vendor_12,General Logistics,Pallet Jack,4930.22,INV-1309
+TX-1184,2026-01-13,Vendor_4,Office Supplies,Desk Organizers,2504.97,INV-1184
+TX-1433,2026-02-09,Vendor_46,IT Infrastructure,Router,2391.66,INV-1433
+TX-1177,2026-05-10,Vendor_30,IT Infrastructure,Cloud Storage Fees,4436.53,INV-1177
+TX-1044,2026-02-02,Vendor_38,General Logistics,Packing Tape,3028.27,INV-1044
+TX-1058,2026-04-27,Vendor_32,General Logistics,Pallet Jack,2062.23,INV-1058
+TX-1054,2026-02-08,Vendor_2,Office Supplies,Staplers,4792.59,INV-1054
+TX-1365,2026-05-06,Vendor_28,IT Infrastructure,Cloud Storage Fees,4876.2,INV-1365
+TX-1145,2026-01-26,Vendor_32,IT Infrastructure,Server Rack,285.05,INV-1145
+TX-1138,2026-04-06,Vendor_20,Office Supplies,Whiteboard Markers,2518.08,INV-1138
+TX-1032,2026-05-27,Vendor_14,IT Infrastructure,Server Rack,2181.02,INV-1032
+TX-1435,2026-06-08,Vendor_43,Office Supplies,Staplers,2432.16,INV-1435
+TX-1492,2026-02-10,Vendor_10,Office Supplies,Whiteboard Markers,72.57,INV-1492
+TX-1046,2026-06-11,Vendor_46,Office Supplies,Staplers,2172.93,INV-1046
+TX-1030,2026-03-11,Vendor_3,General Logistics,Pallet Jack,1205.44,INV-1030
+TX-1443,2026-01-12,Vendor_33,IT Infrastructure,Server Rack,2952.3,INV-1443
+TX-1484,2026-02-25,Vendor_14,Office Supplies,Printer Paper,1211.67,INV-1484
+TX-1496,2026-01-17,Vendor_20,General Logistics,Warehouse Shelving,714.32,INV-1496
+TX-1115,2026-07-17,Vendor_33,Office Supplies,Whiteboard Markers,3829.49,INV-1115
+TX-1379,2026-01-13,Vendor_47,General Logistics,Shipping Boxes,942.46,INV-1379
+TX-1205,2026-06-18,Vendor_16,Office Supplies,Pens,248.95,INV-1205
+TX-1353,2026-06-04,Vendor_25,Office Supplies,Staplers,2200.16,INV-1353
+TX-1147,2026-06-24,Vendor_16,IT Infrastructure,Server Rack,4559.32,INV-1147
+TX-1195,2026-03-02,Vendor_33,IT Infrastructure,Cloud Storage Fees,3656.4,INV-1195
+TX-1011,2026-02-20,Vendor_36,Office Supplies,Staplers,3929.74,INV-1011
+TX-1406,2026-05-17,Vendor_1,General Logistics,Pallet Jack,935.25,INV-1406
+TX-1122,2026-05-24,Vendor_1,IT Infrastructure,Ethernet Cables,3855.29,INV-1122
+TX-1373,2026-05-27,Vendor_4,General Logistics,Packing Tape,2678.99,INV-1373
+TX-1314,2026-02-24,Vendor_14,IT Infrastructure,Ethernet Cables,2882.35,INV-1314
+TX-1105,2026-05-11,Vendor_32,IT Infrastructure,Server Rack,2436.59,INV-1105
+TX-1023,2026-07-09,Vendor_47,General Logistics,Packing Tape,4254.61,INV-1023
+TX-1172,2026-03-04,Vendor_47,General Logistics,Shipping Boxes,2930.97,INV-1172
+TX-1247,2026-04-17,Vendor_36,General Logistics,Packing Tape,1696.66,INV-1247
+TX-1261,2026-02-06,Vendor_46,Office Supplies,Desk Organizers,4540.07,INV-1261
+TX-1196,2026-06-13,Vendor_20,General Logistics,Pallet Jack,4183.65,INV-1196
+TX-1239,2026-01-03,Vendor_17,IT Infrastructure,Server Rack,2945.46,INV-1239
+TX-1174,2026-01-21,Vendor_48,General Logistics,Shipping Boxes,2775.53,INV-1174
+TX-1335,2026-03-21,Vendor_38,IT Infrastructure,Monitor,1227.28,INV-1335
+TX-1290,2026-01-17,Vendor_42,IT Infrastructure,Router,1049.9,INV-1290
+TX-1487,2026-01-29,Vendor_18,IT Infrastructure,Monitor,168.67,INV-1487
