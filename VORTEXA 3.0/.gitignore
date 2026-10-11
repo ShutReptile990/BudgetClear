@@ -1,0 +1,13 @@
+Backend/.venv/
+Backend/__pycache__/
+Backend/budgetclear.sqlite3
+Frontend/node_modules/
+Frontend/dist/
+__pycache__/
+*.pyc
+Backend/budgetclear.sqlite3
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+Backend/uploads/

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+recordlinkage
+httpx>=0.27,<1
+python-dotenv>=1,<2
