@@ -39,6 +39,10 @@ class AuditSubmission(BaseModel):
     reconciliation_status: str = "completed"
 
 
+class AnalysisSubmission(BaseModel):
+    source_ids: list[str] = Field(min_length=1, max_length=50)
+
+
 def _validate_email(email: str) -> str:
     email = email.strip()
     if not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email):
@@ -70,6 +74,12 @@ def logout(request: Request, response: Response):
 @app.get("/api/v1/audits")
 def audit_history(user: dict = Depends(get_current_user)):
     return {"audits": services.list_audits(user)}
+
+
+@app.post("/api/v1/analyze")
+async def analyze_uploaded_sources(data: AnalysisSubmission, user: dict = Depends(get_current_user)):
+    from analyze import analyze_ledger
+    return await analyze_ledger(data, user)
 
 
 @app.post("/api/v1/audits", status_code=201)

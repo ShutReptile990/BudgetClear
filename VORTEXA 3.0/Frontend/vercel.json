@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/api/v1/analyze",
-      "destination": "https://budgetclear-analysis.onrender.com/api/v1/analyze"
-    },
-    {
       "source": "/api/v1/:path*",
       "destination": "https://budgetclear-ingestion.onrender.com/api/v1/:path*"
     },
