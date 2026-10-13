@@ -52,6 +52,7 @@ def make_flag(row, scheme, score, rationale, basis, metrics, related=(), require
 def detect_category_camouflage(df, anomaly_threshold=0.60):
     flags = []
     df = df.dropna(subset=["description", "category"]).copy()
+    df = df[df["category"] != "Uncategorized"]
     if df.empty or not (df.groupby("category").size() >= 3).any():
         return flags
     with _model_lock:

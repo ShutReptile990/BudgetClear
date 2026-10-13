@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException, Depends, Response, Request
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Response, Request
 from fastapi.responses import JSONResponse
 from starlette.concurrency import run_in_threadpool
 from pydantic import BaseModel, Field
@@ -93,7 +93,7 @@ def download_historical_audit(audit_id: str, response: Response, user: dict = De
     return result
 
 @app.post("/api/v1/ingest")
-async def ingest_and_reconcile(file: UploadFile = File(...), user: dict = Depends(get_current_user)):
+async def ingest_and_reconcile(file: UploadFile = File(...), currency: str = Form(...), user: dict = Depends(get_current_user)):
     if not (file.filename or '').lower().endswith('.csv'):
         raise HTTPException(status_code=400, detail="Only CSV files allowed")
         
@@ -103,7 +103,7 @@ async def ingest_and_reconcile(file: UploadFile = File(...), user: dict = Depend
     if len(content) > config.MAX_UPLOAD_BYTES:
         raise HTTPException(413, f"CSV files must be at most {config.MAX_UPLOAD_BYTES // (1024 * 1024)} MB.")
     try:
-        df = read_ledger(content)
+        df = read_ledger(content, currency)
     except (ValueError, KeyError) as error:
         raise HTTPException(status_code=400, detail=str(error))
     if len(df) > config.MAX_LEDGER_ROWS:
@@ -129,11 +129,11 @@ async def ingest_and_reconcile(file: UploadFile = File(...), user: dict = Depend
              "reason": "Deterministic Failure: Negative amounts detected"
         }
         
-    source = await run_in_threadpool(services.store_source, user, file.filename, content, len(df))
+    source = await run_in_threadpool(services.store_source, user, file.filename, content, len(df), currency.upper())
     return {
         "status": "success", 
         "message": f"Ledger structurally sound. {len(df)} rows queued for Probabilistic AI analysis.",
-        "currency": "GBP" if df.get('source_format', pd.Series('', index=df.index)).eq('dwp').all() else "USD",
+        "currency": currency.upper(),
         "source": source,
         "records": services.source_records(df, source),
     }

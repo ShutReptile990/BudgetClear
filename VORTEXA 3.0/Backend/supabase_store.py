@@ -47,6 +47,10 @@ def request(method, path, token=None, **kwargs):
         if path.startswith("/rest/v1/") and code == "PGRST205":
             table = path.split("?", 1)[0].removeprefix("/rest/v1/").split("/", 1)[0]
             raise HTTPException(503, f"Supabase table '{table}' is missing. Run Backend/supabase/schema.sql in this project's SQL Editor.")
+        if path.startswith("/rest/v1/") and code == "PGRST204":
+            if path.startswith("/rest/v1/csv_uploads") and "currency" in str(body.get("message", "")):
+                raise HTTPException(503, "Supabase is missing the CSV currency column. Run Backend/supabase/schema.sql in this project's SQL Editor, then reload the PostgREST schema cache.")
+            raise HTTPException(503, "Supabase could not find a requested database column. Run Backend/supabase/schema.sql in this project's SQL Editor, then reload the PostgREST schema cache.")
         if path.startswith("/storage/") and result.status_code == 404:
             raise HTTPException(503, f"Supabase CSV bucket '{config.SUPABASE_CSV_BUCKET}' or object was not found. Run Backend/supabase/schema.sql and check the bucket name.")
         if result.status_code in {401, 403}:

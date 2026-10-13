@@ -83,10 +83,10 @@ def save_audit(user, payload):
     return cloud.save_audit(user, payload) if config.STORAGE_BACKEND == "supabase" else local.save_audit(user["id"], payload)
 
 
-def store_source(user, filename, content, row_count):
+def store_source(user, filename, content, row_count, currency=None):
     source_id = str(uuid.uuid4())
     metadata = {"id": source_id, "original_filename": filename, "sha256": hashlib.sha256(content).hexdigest(),
-                "size_bytes": len(content), "row_count": row_count,
+                "size_bytes": len(content), "row_count": row_count, "currency": currency,
                 "object_path": f"{user['id']}/{source_id}.csv", "created_at": datetime.now(timezone.utc).isoformat()}
     if config.STORAGE_BACKEND == "supabase":
         cloud.store_csv(user, metadata, content)
@@ -134,9 +134,9 @@ def load_records(user, source_ids):
     records = []
     for source_id in source_ids:
         metadata, content = load_source(user, source_id)
-        records.extend(source_records(read_ledger(content), metadata))
+        records.extend(source_records(read_ledger(content, metadata.get("currency")), metadata))
         if len(records) > config.MAX_LEDGER_ROWS:
             raise HTTPException(413, f"An audit can contain at most {config.MAX_LEDGER_ROWS} records.")
     if len({row["currency"] for row in records}) > 1:
-        raise HTTPException(422, "Run GBP and USD ledgers separately.")
+        raise HTTPException(422, "Run each currency separately.")
     return records

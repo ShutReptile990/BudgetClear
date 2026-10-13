@@ -10,9 +10,11 @@ create table if not exists public.csv_uploads (
   sha256 text not null check (sha256 ~ '^[0-9a-f]{64}$'),
   size_bytes bigint not null check (size_bytes > 0),
   row_count integer not null check (row_count > 0),
+  currency text check (currency in ('USD', 'GBP', 'INR', 'EUR')),
   created_at timestamptz not null default now(),
   check (object_path = user_id::text || '/' || id::text || '.csv')
 );
+alter table public.csv_uploads add column if not exists currency text;
 
 create table if not exists public.audits (
   id text primary key,
@@ -101,3 +103,5 @@ drop policy if exists budgetclear_csv_cleanup on storage.objects;
 create policy budgetclear_csv_cleanup on storage.objects for delete to authenticated
 using (bucket_id = 'budgetclear-csv' and (storage.foldername(name))[1] = (select auth.uid())::text
        and not exists (select 1 from public.csv_uploads where object_path = name));
+
+notify pgrst, 'reload schema';
