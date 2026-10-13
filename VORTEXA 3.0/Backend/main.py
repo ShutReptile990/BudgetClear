@@ -1,8 +1,12 @@
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Response, Request
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Response, Request, BackgroundTasks
 from fastapi.responses import JSONResponse
 from starlette.concurrency import run_in_threadpool
 from pydantic import BaseModel, Field
 import re
+import logging
+import threading
+import time
+import uuid
 import config
 import services
 from services import get_current_user
@@ -11,6 +15,9 @@ import pandas as pd
 from ledger_import import read_ledger, invalid_rows
 
 app = FastAPI(title="BudgetClear Ingestion API")
+analysis_jobs = {}
+analysis_jobs_lock = threading.Lock()
+logger = logging.getLogger(__name__)
 
 
 class Registration(BaseModel):
@@ -80,6 +87,49 @@ def audit_history(user: dict = Depends(get_current_user)):
 async def analyze_uploaded_sources(data: AnalysisSubmission, user: dict = Depends(get_current_user)):
     from analyze import analyze_ledger
     return await analyze_ledger(data, user)
+
+
+async def _run_analysis_job(job_id: str, data: AnalysisSubmission, user: dict):
+    try:
+        from analyze import analyze_ledger
+        result = await analyze_ledger(data, user)
+        result.pop("records", None)
+        state = {**result, "status": "completed"}
+    except HTTPException as exc:
+        logger.exception("Analysis job %s failed", job_id)
+        state = {"status": "failed", "detail": str(exc.detail)}
+    except Exception:
+        logger.exception("Analysis job %s failed", job_id)
+        state = {"status": "failed", "detail": "Analysis failed on the backend. Check the Render runtime logs."}
+    with analysis_jobs_lock:
+        if job_id in analysis_jobs:
+            analysis_jobs[job_id].update(state)
+
+
+@app.post("/api/v1/analyze/start", status_code=202)
+def start_analysis_job(data: AnalysisSubmission, background_tasks: BackgroundTasks,
+                       user: dict = Depends(get_current_user)):
+    with analysis_jobs_lock:
+        now = time.monotonic()
+        for old_id in [key for key, value in analysis_jobs.items() if now - value["created"] > 3600]:
+            del analysis_jobs[old_id]
+        if any(value["user_id"] == user["id"] and value["status"] == "processing"
+               for value in analysis_jobs.values()):
+            raise HTTPException(429, "An audit is already processing for this account.")
+        job_id = str(uuid.uuid4())
+        analysis_jobs[job_id] = {"user_id": user["id"], "created": now, "status": "processing"}
+    background_tasks.add_task(_run_analysis_job, job_id, data, user)
+    return {"job_id": job_id, "status": "processing"}
+
+
+@app.get("/api/v1/analyze/jobs/{job_id}")
+def analysis_job_status(job_id: str, response: Response, user: dict = Depends(get_current_user)):
+    response.headers["Cache-Control"] = "no-store"
+    with analysis_jobs_lock:
+        job = analysis_jobs.get(job_id)
+        if job is None or job["user_id"] != user["id"]:
+            raise HTTPException(404, "Audit job was not found. Run the audit again.")
+        return {key: value for key, value in job.items() if key not in {"user_id", "created"}}
 
 
 @app.post("/api/v1/audits", status_code=201)

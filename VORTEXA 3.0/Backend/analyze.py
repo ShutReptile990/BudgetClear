@@ -19,8 +19,8 @@ _model_lock = threading.Lock()
 
 @lru_cache(maxsize=1)
 def get_model():
-    from sentence_transformers import SentenceTransformer
-    return SentenceTransformer('all-MiniLM-L6-v2')
+    from fastembed import TextEmbedding
+    return TextEmbedding(model_name='sentence-transformers/all-MiniLM-L6-v2', threads=2)
 
 
 def evidence(row, role="flagged record"):
@@ -55,8 +55,10 @@ def detect_category_camouflage(df, anomaly_threshold=0.60):
     df = df[df["category"] != "Uncategorized"]
     if df.empty or not (df.groupby("category").size() >= 3).any():
         return flags
+    unique_descriptions, inverse = np.unique(df["description"].astype(str).to_numpy(), return_inverse=True)
     with _model_lock:
-        embeddings = np.asarray(get_model().encode(df["description"].tolist()), dtype=np.float32)
+        unique_embeddings = np.asarray(list(get_model().embed(unique_descriptions.tolist(), batch_size=32)), dtype=np.float32)
+    embeddings = unique_embeddings[inverse]
     faiss.normalize_L2(embeddings)
     df["embedding"] = list(embeddings)
     for category, group in df.groupby("category"):
