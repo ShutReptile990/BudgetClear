@@ -8,7 +8,6 @@ from starlette.concurrency import run_in_threadpool
 import pandas as pd
 import numpy as np
 import faiss
-import recordlinkage
 
 from services import get_current_user, load_records
 from ai_explanations import explain_flags
@@ -112,6 +111,7 @@ def detect_smurfing_benfords_mad(df, mad_critical_value=0.015):
 
 
 def detect_fuzzy_duplicates(df):
+    import recordlinkage
     df = df[df["invoice_number"].astype(str).str.strip().ne("")].reset_index(drop=True)
     if len(df) < 2:
         return []
